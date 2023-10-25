@@ -6,7 +6,7 @@ export default function Alert(children){
             [styles.success]: type === 'success',
         [styles.error]: type === 'error',
         })}>
-            {children}
+            <strong>{children}</strong>
         </div>
     )
 }
